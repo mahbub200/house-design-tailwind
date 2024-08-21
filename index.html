@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- daisy ui cdn  -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- tailwind cdn   -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- font awesome  -->
+    <script
+      src="https://kit.fontawesome.com/87a20cfa56.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header class="container mx-auto">
+      <!-- navbar  -->
+      <div
+        class="navbar bg-base-100 bg-gradient-to-t from-gray-300 to-white"
+      >
+        <div class="navbar-start flex justify-between w-full">
+        
+          <div class="flex justify-center items-center">
+            <div
+              class="h-8 w-8 bg-green-400 rounded-full mr-2 flex items-center justify-center -rotate-45"
+            >
+              <i class="fa fa-arrow-right"></i>
+            </div>
+            <a class="text-3xl font-bold">Rinterior </a>
+          </div>
+          <div class="dropdown">
+            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 6h16M4 12h8m-8 6h16"
+                />
+              </svg>
+            </div>
+            <!-- <ul
+              tabindex="0"
+              class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
+            >
+              <li class="text-orange-500"><a>Home</a></li>
+
+              <li><a>Service</a></li>
+              <li><a>Portfolio</a></li>
+
+              <li><a>Blogs</a></li>
+              <li><a>Contact us</a></li>
+            </ul> -->
+          </div>
+        </div>
+        <!-- navbar home service, portfolio  -->
+        <div class="navbar-center hidden lg:flex">
+          <ul class="menu menu-horizontal px-1">
+            <li class="text-base text-black font-bold"><a>Home</a></li>
+
+            <li class="text-base text-gray-400"><a>Service</a></li>
+            <li class="text-base text-gray-400"><a>Portfolio</a></li>
+            <li class="text-base text-gray-400"><a>Blogs</a></li>
+            <li class="text-base text-gray-400"><a>Contact us</a></li>
+          </ul>
+        </div>
+        <!-- button book consutant part  -->
+        <div class="navbar-end  space-x-5 hidden lg:flex">
+          <div
+            class="bg-white w-12 h-12 rounded-full flex items-center justify-center"
+          >
+            <h3><i class="fa fa-search text-lg"></i></h3>
+          </div>
+          <div
+            class="bg-white w-12 h-12 rounded-full flex items-center justify-center"
+          >
+            <i class="fa fa-shopping-cart"></i>
+          </div>
+          <a class="btn text-white bg-green-400 rounded-full"
+            >Book Consult  <div
+            class="h-8 w-8 bg-black rounded-full mr-2 flex items-center justify-center -rotate-45"
+          >
+            <i class="fa fa-arrow-right"></i>
+          </div></i
+          ></a>
+        </div>
+      </div>
+    </header>
+    <!-- navbar ended  -->
+  </body>
+</html>
